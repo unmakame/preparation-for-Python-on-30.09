@@ -161,8 +161,10 @@ print(np.nonzero(is_prime)[0])
   Композиция - более сильная форма агрегации, части не могут существовать без целого, показывается закрашенным ромбом у целого 
   Реализация - класс реализует интерфейс, обозначается пунктирной стрелкой с обычным треугольником
   Композиция - моделирует отношение имеет, один класс может вклучать в себя один или несколько обьектов других классов 
-  https://files.realpython.com/media/ic-basic-inheritance.f8dc9ffee4d7.jpg<img width="242" height="343" alt="image" src="https://github.com/user-attachments/assets/7f08ed68-f1c5-4d21-97e3-17afb30a0b38" />
-  https://files.realpython.com/media/ic-basic-composition.8a15876f7db2.jpg<img width="249" height="348" alt="image" src="https://github.com/user-attachments/assets/bab16f1e-1c42-44f2-a3b3-c528a62296a9" />
+  <div style="display: flex; gap: 20px; align-items: center;">
+    <img src="https://github.com/user-attachments/assets/7f08ed68-f1c5-4d21-97e3-17afb30a0b38" alt="Наследование" width="242" height="343" style="object-fit: contain;">
+    <img src="https://github.com/user-attachments/assets/bab16f1e-1c42-44f2-a3b3-c528a62296a9" alt="Композиция" width="249" height="348" style="object-fit: contain;">
+</div>
 
 
  
