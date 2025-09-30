@@ -580,4 +580,17 @@ class AccountManager:
     def remove_user(self, username):
         self._accounts.pop(username, None)
 ```    
+## чем __str__ отличается от __repr__ привести пример 
+__str__ и __repr__ — это магические методы для строкового представления объектов в Python. __str__ предназначен для человека и используется при вызове str() или print(), чтобы вывести объект в читаемом виде. __repr__ предназначен для разработчика, вызывается через repr() и желательно, чтобы его результат позволял воссоздать объект через eval()
+```
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
+    def __str__(self):
+        return f"{self.name}, {self.age} years old"
+
+    def __repr__(self):
+        return f"Person('{self.name}', {self.age})"
+```
