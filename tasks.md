@@ -125,6 +125,7 @@ class SaveMixin:
         
 class User(SaveMixin):
     pass
+a.save() #вывод СОхранено!
 ```
  ## написать класс username
  ```
